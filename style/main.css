@@ -1,1 +1,14 @@
-
+.button {
+  display: block;
+  background-color: #fabada;
+  color: white;
+}
+.myInput {
+  display: block;
+  border: solid grey 2px;
+  background-color: lightgray;
+}
+p {
+  border: solid grey 2px;
+  width: 30vw;
+}
