@@ -33,4 +33,4 @@ function myFunction() {
     clue.innerHTML = 'El número debe estar entre 1 y 100';
   }
 }
-function numberTries =
+// function numberTries =
