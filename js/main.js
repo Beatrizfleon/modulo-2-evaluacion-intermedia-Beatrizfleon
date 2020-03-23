@@ -17,6 +17,7 @@ const clue = document.querySelector('.clue');
 function myFunction(ev) {
   ev.preventDefault();
   giveClue();
+  countingAttemps();
 
   // console.log('mi función funciona?');
 }
@@ -44,4 +45,11 @@ function giveClue() {
     clue.innerHTML = clueMessage;
   }
 }
-// function numberTries =
+
+let tries = document.querySelector('.tries');
+let attemps = 0;
+
+function countingAttemps() {
+  attemps += 1;
+  tries.innerHTML = attemps;
+}
