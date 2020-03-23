@@ -44,3 +44,4 @@ function giveClue() {
     clue.innerHTML = clueMessage;
   }
 }
+// function numberTries =
